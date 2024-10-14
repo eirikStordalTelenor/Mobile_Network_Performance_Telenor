@@ -1,8 +1,6 @@
 # OoklaData
 
-CSV filer, kan ha blanke felter 
-Kolonne navene 
-
+Kolonnenavene: 
 - id_result
 - guid_result
 - id_platform
