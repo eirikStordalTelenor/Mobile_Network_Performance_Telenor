@@ -10,7 +10,7 @@ Mulige teknologier:
 Åpent for å skrive kode og gjennomføre en analyse, eller komme med en mer konseptuell plan for analyse.
 Vurderingen legger vekt på gode ideer og kreativitet, det er ikke nødvendig å ha den mest komplekse koden. 
 
-Det er vedlagt en PDF-fil med oversikt over alle feltene som er inkludert i CSV-filene. Samt tilleggsinformasjon om feltene kan være blanke eller innholde `null`.  
+Det er vedlagt en PDF-fil informajon om feltene. 
 Feltnavene: 
 - id_result
 - guid_result
