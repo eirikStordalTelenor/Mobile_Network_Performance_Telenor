@@ -7,11 +7,11 @@ om mobilnettet vårt som kan være nyttig for å forbedre kundeopplevelsen
 Mulige teknologier: 
 - Python med numpy, Matlab eller et annet ønsket språk.
 
-
 Åpent for å skrive kode og gjennomføre en analyse, eller komme med en mer konseptuell plan for analyse.
-Vurderingen legger vekt på gode ideer og kreativitet, det er ikke nødvendig å ha den mest komplekse koden
-Det er vedlagt en PDF-fil med oversikt over alle feltene som er inkludert i CSV-filene. Samt tilleggsinformasjon om feletene kan være blanke eller innholde `null`.  
-Kolonnenavene: 
+Vurderingen legger vekt på gode ideer og kreativitet, det er ikke nødvendig å ha den mest komplekse koden. 
+
+Det er vedlagt en PDF-fil med oversikt over alle feltene som er inkludert i CSV-filene. Samt tilleggsinformasjon om feltene kan være blanke eller innholde `null`.  
+Feltnavene: 
 - id_result
 - guid_result
 - id_platform
