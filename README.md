@@ -1,4 +1,4 @@
-# OoklaData
+# Mobile Network Performance
 
 Statistikk fra Ookla Speedtest for bedre innblikk i kundenes opplevde hastighet i mobilnettet
 
