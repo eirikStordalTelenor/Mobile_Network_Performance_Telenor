@@ -10,7 +10,8 @@ Mulige teknologier:
 Åpent for å skrive kode og gjennomføre en analyse, eller komme med en mer konseptuell plan for analyse.
 Vurderingen legger vekt på gode ideer og kreativitet, det er ikke nødvendig å ha den mest komplekse koden. 
 
-Det er vedlagt en PDF-fil informajon om feltene. 
+Det er vedlagt en PDF-fil informajon om feltene.  
+
 Feltnavene: 
 - id_result
 - guid_result
