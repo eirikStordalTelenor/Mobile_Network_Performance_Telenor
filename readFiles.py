@@ -22,10 +22,4 @@ def combine_csv_files_to_dataframe(input_folder):
 input_folder = 'OoklaMobilePerformance_Telenor'  # Replace with the path to your folder containing CSVs
 
 # Get the combined DataFrame
-combined_df = combine_csv_files_to_dataframe(input_folder)
-
-unique_values = combined_df['attr_place_subregion'].unique()
-
-filtered_df = combined_df[combined_df['attr_place_subregion'] == 'Tromsø']
-
-print(combined_df.head(1))
+combined_df = combine_csv_files_to_dataframe(input_folder).cache()
