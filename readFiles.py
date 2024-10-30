@@ -1,10 +1,7 @@
-from zipfile import ZipFile
-
 import os
 import pandas as pd
 
-
-def combine_csv_files(input_folder, output_file):
+def combine_csv_files_to_dataframe(input_folder):
     # Create an empty list to hold DataFrames
     all_dataframes = []
 
@@ -13,19 +10,22 @@ def combine_csv_files(input_folder, output_file):
         if filename.endswith(".csv"):  # Check if the file is a CSV
             file_path = os.path.join(input_folder, filename)
             df = pd.read_csv(file_path)  # Read each CSV into a DataFrame
-            all_dataframes.append(df)  # Append the DataFrame to the list
+            all_dataframes.append(df)    # Append the DataFrame to the list
 
     # Combine all DataFrames in the list into one
     combined_df = pd.concat(all_dataframes, ignore_index=True)
 
-    # Save the combined DataFrame to the output CSV file
-    combined_df.to_csv(output_file, index=False)
-
-    print(f"Combined CSV saved as: {output_file}")
-
+    # Return the combined DataFrame
+    return combined_df
 
 # Example usage
 input_folder = 'OoklaMobilePerformance_Telenor'  # Replace with the path to your folder containing CSVs
-output_file = 'combined_ookla.csv'  # Specify the name of the output file
 
-combine_csv_files(input_folder, output_file)
+# Get the combined DataFrame
+combined_df = combine_csv_files_to_dataframe(input_folder)
+
+unique_values = combined_df['attr_place_subregion'].unique()
+
+filtered_df = combined_df[combined_df['attr_place_subregion'] == 'Tromsø']
+
+print(combined_df.head(1))
