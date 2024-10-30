@@ -25,7 +25,7 @@ def combine_csv_files(input_folder, output_file):
 
 
 # Example usage
-input_folder = 'workshop/OoklaData/OoklaMobilePerformance_Telenor'  # Replace with the path to your folder containing CSVs
+input_folder = 'OoklaMobilePerformance_Telenor'  # Replace with the path to your folder containing CSVs
 output_file = 'combined_ookla.csv'  # Specify the name of the output file
 
 combine_csv_files(input_folder, output_file)
