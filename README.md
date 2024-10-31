@@ -5,12 +5,13 @@ Statistikk fra Ookla Speedtest for bedre innblikk i kundenes opplevde hastighet 
 Vi har hentet ut ca ett år med filer (ca 500 000 rader data) som vi ønsker at dere skal analysere og gjerne finne noe 
 om mobilnettet vårt som kan være nyttig for å forbedre kundeopplevelsen
 Mulige teknologier: 
+
 - Python med numpy, Matlab eller et annet ønsket språk.
 
 Åpent for å skrive kode og gjennomføre en analyse, eller komme med en mer konseptuell plan for analyse.
 Vurderingen legger vekt på gode ideer og kreativitet, det er ikke nødvendig å ha den mest komplekse koden. 
 
-Det er vedlagt en PDF-fil med informajon om feltene.  
+Det er vedlagt en PDF-fil med informasjon om feltene.  
 
 Feltnavene: 
 - id_result
